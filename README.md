@@ -26,11 +26,11 @@ In column E, we eliminate rows without data: ```=if(D6="NULL","",D6)```
 
 In column F, we finalize our data: ```=if(B6=1,E6,"")```
 
-With the data in column F, we can feed it to a Word Cloud creator like Jason Davies’ Word Cloud Generator (https://www.jasondavies.com/wordcloud/). Here is our generated word cloud and how it was generated:
+With the data in column F, we can create a word cloud using Jason Davies’ Word Cloud Generator (https://www.jasondavies.com/wordcloud/):
 
 ![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_jd_wcg_5.PNG "Word Cloud Generator")
 
-We can also use D3.js to create a word cloud on your own webserver. See LINK HERE for the full example (Note, you need a webserver for the example to work). This is based on Varun Agrawal’s Block (http://bl.ocks.org/varunagrawal/e4598d856778fc6733cc03235f6af801). Here is the generated word cloud:
+We can also use D3.js to create a word cloud on your own webserver. See [the full example](https://github.com/vHMML/vhmml-dp-word-cloud/tree/master/example) (Note, you need a webserver for the example to work). This is based on Varun Agrawal’s Block (http://bl.ocks.org/varunagrawal/e4598d856778fc6733cc03235f6af801). Here is the generated word cloud:
 
 ![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wordcloud_syriac_localhost.PNG "D3.js Word Cloud")
 
