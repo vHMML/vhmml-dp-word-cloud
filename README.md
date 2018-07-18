@@ -16,9 +16,9 @@ Looking at the data, because the language is at the part level, we may have manu
 
 In column A, we have our data. 
 
-In column B, we identify whether there is an 11 in our data (the language id for Syriac): ```=if(find("11",A6,1)>0,1,0)```
+In column B, we identify whether there is an "11" in our data (the language id for Syriac): ```=if(find("11",A6,1)>0,1,0)```
 
-In column C, we find the position or our “,” or comma: ```=find(",",A6,1)```
+In column C, we find the position of the “,” (comma): ```=find(",",A6,1)```
 
 In column D, we isolate the text of the title native script: ```=left(A6,C6-1)```
 
