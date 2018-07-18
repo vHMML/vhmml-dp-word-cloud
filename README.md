@@ -4,9 +4,15 @@ Using the vHMML Data Portal, you can use Reading Room metadata to generate word 
 
 One example, would be to search the Data Portal for only items with the language of Syriac
 
+![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_language_1.PNG "filter language")
+
 After exporting the Full Search Data, use SQLIFY to isolate the Title Native Script (The title of an item in the original non-Roman language) and Language ID. 
 
+![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_sqyilfy_2.PNG "SQLIFY")
+
 Looking at the data, because the language is at the part level, we may have manuscripts with multiple languages. However, we would like to isolate the Syriac ones. After loading our data into a Google Sheet, we can use some formulas to trim our data. 
+
+![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_gs_3.PNG "Google Sheet")
 
 In column A, we have our data. 
 
@@ -22,4 +28,9 @@ In column F, we finalize our data - =if(B6=1,E6,"")
 
 With the data in column F, we can feed it to a Word Cloud creator like Jason Davies’ Word Cloud Generator (https://www.jasondavies.com/wordcloud/). Here is our generated word cloud and how it was generated:
 
+![alt text](https://github.com/vHMML/vhmml-CSV-Listing-Data/blob/master/img/vhmml_data_portal.PNG "vHMML Data Portal")
+
 We can also use D3.js to create a word cloud on your own webserver. See LINK HERE for the full example (Note, you need a webserver for the example to work). This is based on Varun Agrawal’s Block (http://bl.ocks.org/varunagrawal/e4598d856778fc6733cc03235f6af801). Here is the generated word cloud:
+
+![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wordcloud_syriac_localhost.PNG "D3.js Word Cloud")
+
