@@ -6,11 +6,11 @@ One example, would be to search the Data Portal for only items with the language
 
 ![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_language_1.PNG "filter language")
 
-After exporting the Full Search Data, use SQLIFY to isolate the Title Native Script (The title of an item in the original non-Roman language) and Language ID. 
+After exporting the Full Search Data, we can use SQLIFY to isolate the Title Native Script (The title of an item in the original non-Roman language) and Language ID. 
 
 ![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_sqyilfy_2.PNG "SQLIFY")
 
-Looking at the data, because the language is at the part level, we may have manuscripts with multiple languages. However, we would like to isolate the Syriac ones. After loading our data into a Google Sheet, we can use some formulas to trim our data. 
+Looking at the data, because the language is at the part level, we may have manuscripts with multiple languages. However, we would like to isolate just the Syriac ones. After loading our data into a Google Sheet, we can use some formulas to trim our data. 
 
 ![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_gs_3.PNG "Google Sheet")
 
