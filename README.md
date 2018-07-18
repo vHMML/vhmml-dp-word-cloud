@@ -10,7 +10,7 @@ After exporting the Full Search Data, we can use SQLIFY to isolate the Title Nat
 
 ![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_sqyilfy_2.PNG "SQLIFY")
 
-Looking at the data, because the language is at the part level, we may have manuscripts with multiple languages. However, we would like to isolate just the Syriac ones. After loading our data into a Google Sheet, we can use some formulas to trim our data. 
+Looking at the data, because the language is at the part level, we may have manuscripts with multiple languages. However, we would like to isolate just the Syriac ones. After loading our data into a Google Sheet, we can use formulas to clean our data. 
 
 ![alt text](https://github.com/vHMML/vhmml-dp-word-cloud/blob/master/img/wc_gs_3.PNG "Google Sheet")
 
